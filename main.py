@@ -5,7 +5,7 @@ from ta.momentum import RSIIndicator
 from telegram import Bot
 from config import BOT_TOKEN, CHAT_ID
 
-API_KEY = "MASUKKAN_API_KEY_TWELVEDATA"
+API_KEY = a69d0c1780cb462d9f4817b8afa20e0e
 
 url = f"https://api.twelvedata.com/time_series?symbol=XAU/USD&interval=15min&apikey={API_KEY}&outputsize=100"
 
