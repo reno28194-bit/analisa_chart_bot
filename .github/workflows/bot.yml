@@ -5,8 +5,8 @@ on:
     - cron: "*/15 * * * *"
   workflow_dispatch:
 
-jobs:
-  run:
+jobs:trade
+  run: phyton main.py
     runs-on: ubuntu-latest
 
     steps:
