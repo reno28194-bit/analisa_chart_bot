@@ -5,7 +5,7 @@ on:
     - cron: "*/15 * * * *"
   workflow_dispatch:
 
-jobs:trade
+jobs: tranding 
   run: phyton main.py
     runs-on: ubuntu-latest
 
