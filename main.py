@@ -49,8 +49,8 @@ EMA50 : {round(ema50.iloc[-1],2)}
 RSI : {round(rsi.iloc[-1],2)}
 """
 
-bot=Bot(BOT_TOKEN)
+bot=Bot(a69d0c1780cb462d9f4817b8afa20e0e)
 
-bot.send_message(chat_id=CHAT_ID,text=pesan)
+bot.send_message(8681160703)
 
 print("Selesai")
